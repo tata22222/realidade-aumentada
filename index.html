@@ -8,9 +8,10 @@
 </head>
 
 <body style="margin: 0; overflow; hidden;">
+  <video id="meuvideo" src="myshayla.mp4" autoplay loop playsinline webkit-playsinline muted style=“display: none;”></video> 
   <a-scene vr-mode-ui="enabled: false" embedded ar.js="debugUIEnabled: false">
     <a-marker preset="hiro">
-      <a-image src="gaycat.jpeg" rotation="-90 0 0"></a-image>
+      <a-video src="meuvideo" rotation="-90 0 0"></a-video>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
